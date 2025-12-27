@@ -2,6 +2,13 @@
 ################################################################################
 # Installs the software, which is required for you to create a V12 Mobile phone
 # on your own, and for free.
+#
+# The requrired sofware packages are:
+#	- git
+#	- direnv
+#	- android-sdk-platform-tools-common
+#	- signify-openbsd
+#	- libarchive-tools
 ################################################################################
 
 echo "Checking if pre-requisite apt packages have been installed."
