@@ -1,5 +1,8 @@
 #!/bin/bash
-
+################################################################################
+# Installs the software, which is required for you to create a V12 Mobile phone
+# on your own, and for free.
+################################################################################
 
 echo "Checking if pre-requisite apt packages have been installed."
 declare -a PACKAGES=("git", "direnv", "android-sdk-platform-tools-common", "signify-openbsd", "libarchive-tools")
